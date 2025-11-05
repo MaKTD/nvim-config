@@ -130,6 +130,14 @@ return {
             show_model_choices = false,
           },
         },
+        memory = {
+          opts = {
+            chat = {
+              enabled = true,
+              default_memory = "default",
+            },
+          },
+        },
         strategies = {
           chat = {
             keymaps = {
@@ -167,7 +175,7 @@ return {
         },
         display = {
           chat = {
-            show_settings = true,
+            --show_settings = true,
           },
           action_palette = {
             width = 95,
